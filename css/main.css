@@ -7,7 +7,7 @@
 body {
     font-family: "Sen", sans-serif;
     font-weight: 400;
-    max-width: 1440px;
+    max-width: 100%;
     margin: auto;
     background: black;
 }
@@ -25,16 +25,11 @@ img {
     max-width: 100%;
 }
 
+.burger {
+    display: none;
+}
+
 .scroll_up {
-    position: fixed;
-    bottom: 100px;
-    right: 100px;
-    width: 60px;
-    height: 60px;
-    background: url('/img/scroll_up.png') no-repeat;
-    background-size: cover;
-    z-index: 5;
-    border: none;
     display: none;
  }
 
@@ -340,7 +335,8 @@ margin-bottom: 22px;
 
 .project {
     display: flex;
-    margin: 0 72px;
+    width: min-content;
+    margin: auto;
 }
 
 .project_left {
@@ -465,7 +461,8 @@ margin-bottom: 22px;
 /* Dribbble */
 
 .dribbble {
-    margin-left: 182px;
+    max-width: 1296px;
+    margin: auto;
     margin-bottom: 120px;
 }
 
@@ -494,7 +491,8 @@ margin-bottom: 22px;
 
 .dribbble_img {
     display: block;
-    margin-left: 182px;
+    max-width: 1296px;
+    margin: auto;
     margin-bottom: 120px;
 }
 
@@ -1662,7 +1660,19 @@ margin-bottom: 48px;
     line-height: 48px;
  }
 
- 
+ .scroll_up {
+    display: block;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    width: 60px;
+    height: 60px;
+    background: url('/img/scroll_up.png') no-repeat;
+    background-size: cover;
+    z-index: 5;
+    border: none;
+    display: none;
+ }
 
 }
 

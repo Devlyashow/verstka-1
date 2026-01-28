@@ -93,7 +93,7 @@ window.onscroll = function() {
     }
 };
 scrollBtn.addEventListener("click", function() {
-    document.querySelector('.header_menu').scrollIntoView({
+    document.querySelector('.header_menu_logo').scrollIntoView({
         behavior: 'smooth',
         block: 'start'
     })
