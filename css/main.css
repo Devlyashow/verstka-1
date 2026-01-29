@@ -1156,6 +1156,10 @@ margin-bottom: 80px;
     max-width: 330px;
  }
 
+ .footer_right p {
+    cursor: pointer;
+ }
+
  .footer_right_1 p {
     height: 48px;
     line-height: 48px;
