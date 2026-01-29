@@ -1669,7 +1669,7 @@ margin-bottom: 48px;
     right: 100px;
     width: 60px;
     height: 60px;
-    background: url('img/scroll_up.png') no-repeat;
+    background: url('../img/scroll_up.png') no-repeat;
     background-size: cover;
     z-index: 5;
     border: none;
